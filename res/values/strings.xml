@@ -109,9 +109,6 @@
     <!-- Settings screen, Camcorder setting category title -->
     <string name="pref_camcorder_settings_category">Camcorder settings</string>
 
-    <!-- More Settings screen, storage title -->
-    <string name="pref_camera_storage_title">Storage</string>
-
     <!-- Settings screen, Picture size title -->
     <string name="pref_camera_picturesize_title">Picture size</string>
 
@@ -226,7 +223,7 @@
     <string name="pref_exposure_default" translatable="false">0</string>
 
     <!-- Default HDR entry value -->
-    <string name="pref_camera_hdr_default" translatable="false">@string/setting_off_value</string>
+    <string name="pref_camera_hdr_default">@string/setting_off_value</string>
 
     <!-- Dialog "OK" button. Dismisses dialog. -->
     <string name="dialog_ok">OK</string>
@@ -351,6 +348,8 @@
     <string name="accessibility_switch_to_panorama">Switch to panorama</string>
     <!-- The button to switch to new Panorama mode. [CHAR LIMIT = NONE] -->
     <string name="accessibility_switch_to_new_panorama">Switch to new panorama</string>
+    <!-- The button to switch to the Gallery. [CHAR LIMIT = NONE] -->
+    <string name="accessibility_switch_to_gallery">Switch to gallery</string>
     <!-- The button in review mode indicating that the photo taking, video recording, and panorama saving session should be canceled [CHAR LIMIT = NONE] -->
     <string name="accessibility_review_cancel">Review cancel</string>
     <!-- The button in review mode indicating that the taken photo/video is OK to be attached/uploaded [CHAR LIMIT = NONE] -->
@@ -472,10 +471,10 @@ CHAR LIMIT = NONE] -->
 
      <!-- More Settings screen, power button title -->
      <string name="pref_camera_power_shutter_title">Power shutter</string>
-     <string name="pref_camera_power_shutter_default" translatable="false">off</string>
+     <string name="pref_camera_power_shutter_default">off</string>
 
      <!-- Settings screen, ISO -->
-     <string name="pref_camera_iso_title" translatable="false">ISO</string>
+     <string name="pref_camera_iso_title">ISO</string>
      <string name="pref_camera_iso_default" translatable="false">auto</string>
 
      <!-- Settings screen, ISO dialog radio button choices -->
@@ -484,16 +483,16 @@ CHAR LIMIT = NONE] -->
      <string name="pref_camera_iso_entry_isosports">Sports</string>
      <string name="pref_camera_iso_entry_isonight">Night</string>
      <string name="pref_camera_iso_entry_isomovie">Movie</string>
-     <string name="pref_camera_iso_entry_iso6400" translatable="false">6400</string>
-     <string name="pref_camera_iso_entry_iso3200" translatable="false">3200</string>
-     <string name="pref_camera_iso_entry_iso1600" translatable="false">1600</string>
-     <string name="pref_camera_iso_entry_iso1200" translatable="false">1200</string>
-     <string name="pref_camera_iso_entry_iso1000" translatable="false">1000</string>
-     <string name="pref_camera_iso_entry_iso800" translatable="false">800</string>
-     <string name="pref_camera_iso_entry_iso400" translatable="false">400</string>
-     <string name="pref_camera_iso_entry_iso200" translatable="false">200</string>
-     <string name="pref_camera_iso_entry_iso100" translatable="false">100</string>
-     <string name="pref_camera_iso_entry_iso50" translatable="false">50</string>
+     <string name="pref_camera_iso_entry_iso6400">6400</string>
+     <string name="pref_camera_iso_entry_iso3200">3200</string>
+     <string name="pref_camera_iso_entry_iso1600">1600</string>
+     <string name="pref_camera_iso_entry_iso1200">1200</string>
+     <string name="pref_camera_iso_entry_iso1000">1000</string>
+     <string name="pref_camera_iso_entry_iso800">800</string>
+     <string name="pref_camera_iso_entry_iso400">400</string>
+     <string name="pref_camera_iso_entry_iso200">200</string>
+     <string name="pref_camera_iso_entry_iso100">100</string>
+     <string name="pref_camera_iso_entry_iso50">50</string>
 
     <!-- Settings screen, JPEG Quality -->
     <string name="pref_camera_jpeg_title">JPEG Quality</string>
@@ -551,5 +550,9 @@ CHAR LIMIT = NONE] -->
     <string name="pref_camera_focustime_entry_20">20s</string>
     <string name="pref_camera_focustime_entry_30">30s</string>
     <string name="pref_camera_focustime_entry_infinite">Infinite</string>
+
+     <!-- Settings screen, storage title -->
+     <string name="pref_camera_storage_title">Use External Storage</string>
+     <string name="pref_camera_storage_title_default">No</string>
 
 </resources>
