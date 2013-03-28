@@ -2007,13 +2007,19 @@ public class VideoModule implements CameraModule,
                 optimalSize.height);
 
         // Set JPEG quality.
+<<<<<<< HEAD
         int jpegQuality = CameraProfile.getJpegEncodingQualityParameter(mCameraId,
                 CameraProfile.QUALITY_HIGH);
+=======
+        int jpegQuality = Integer.parseInt(mPreferences.getString(
+                CameraSettings.KEY_VIDEOCAMERA_JPEG,
+                mActivity.getString(R.string.pref_camera_jpeg_default)));
+>>>>>>> c06a37733a38539dc6b6015d8d7b7fb3e6d7c813
         mParameters.setJpegQuality(jpegQuality);
 
         // Color effect
         String colorEffect = mPreferences.getString(
-                CameraSettings.KEY_COLOR_EFFECT,
+                CameraSettings.KEY_VIDEOCAMERA_COLOR_EFFECT,
                 mActivity.getString(R.string.pref_camera_coloreffect_default));
         if (Util.isSupported(colorEffect, mParameters.getSupportedColorEffects())) {
             mParameters.setColorEffect(colorEffect);

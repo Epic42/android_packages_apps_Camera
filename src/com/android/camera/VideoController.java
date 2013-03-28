@@ -85,7 +85,12 @@ public class VideoController extends PieController
                 CameraSettings.KEY_RECORD_LOCATION,
                 CameraSettings.KEY_STORAGE,
                 CameraSettings.KEY_POWER_SHUTTER,
+<<<<<<< HEAD
                 CameraSettings.KEY_COLOR_EFFECT};
+=======
+                CameraSettings.KEY_VIDEOCAMERA_COLOR_EFFECT,
+                CameraSettings.KEY_VIDEOCAMERA_JPEG};
+>>>>>>> c06a37733a38539dc6b6015d8d7b7fb3e6d7c813
 
         PieItem item = makeItem(R.drawable.ic_settings_holo_light);
         item.setFixedSlice(FLOAT_PI_DIVIDED_BY_TWO * 3, sweep);
